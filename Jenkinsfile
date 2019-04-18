@@ -22,6 +22,7 @@ pipeline {
       }
       steps {
          echo "TODO - build and push image"
+        sh 'java -version'
       }
     }
   }
